@@ -2,7 +2,6 @@
   "name": "solana_docs",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +9,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^2.13.0",
     "@solana-developers/helpers": "^2.4.0",
+    "@solana/spl-token": "^0.4.8",
     "@solana/web3.js": "^1.95.2",
     "bs58": "^6.0.0",
     "esrun": "^3.2.26"

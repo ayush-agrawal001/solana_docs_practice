@@ -15,7 +15,7 @@ const App: React.FC = () => {
   // const connectTowallet = use
   return (
     <ConnectionProvider endpoint={endpoint}>
-      <WalletProvider wallets={wallets}>
+      <WalletProvider wallets={wallets} autoConnect>
         <WalletModalProvider>
           <div>
             <WalletConnectButton></WalletConnectButton>
